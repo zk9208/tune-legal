@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Tune — Background playback demonstration</title>
+<style>
+  :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+  body { margin: 0; background: light-dark(#f5f5f5, #141414); color: light-dark(#202020, #ededed); }
+  main { max-width: 680px; margin: 0 auto; padding: 40px 24px; }
+  .eyebrow { font-size: 12px; letter-spacing: .2em; text-transform: uppercase; opacity: .65; }
+  h1 { font-size: clamp(28px, 5vw, 40px); line-height: 1.15; letter-spacing: -.035em; margin-bottom: 12px; }
+  p, li { line-height: 1.6; }
+  video { display: block; width: min(100%, 360px); height: auto; margin: 28px auto; border-radius: 16px; background: #111; }
+  .caption { font-size: 14px; opacity: .7; }
+  a { color: inherit; }
+</style>
+<main>
+  <div class="eyebrow">Tune · Google Play review</div>
+  <h1>Background playback</h1>
+  <p>Version 1.0.0 (16). This continuous screen recording shows user-initiated playback and Android media controls.</p>
+  <video controls playsinline preload="metadata" poster="poster.jpg" aria-label="Tune background playback demonstration">
+    <source src="tune-background-playback-16.mp4" type="video/mp4">
+    <a href="tune-background-playback-16.mp4">Open the recording</a>
+  </video>
+  <p class="caption">Silent screen recording, 34.5 seconds. The demonstration uses locally generated test tones.</p>
+  <ol>
+    <li>Select “Background playback demo” in Tune to start playback.</li>
+    <li>Return to the Android home screen while playback continues.</li>
+    <li>Open Android media controls, pause, and resume playback.</li>
+    <li>Return to Tune and pause playback.</li>
+  </ol>
+  <p><a href="tune-background-playback-16.mp4">Direct video link</a> · <a href="../../?lang=en#privacy">Privacy policy</a></p>
+</main>
+</html>
